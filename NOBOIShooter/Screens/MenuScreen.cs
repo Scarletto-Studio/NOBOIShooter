@@ -116,7 +116,8 @@ namespace NOBOIShooter.Screens
 
         private void LeaderboardButtonOnClick(object sender, EventArgs e)
         {
-            Console.WriteLine("Leaderboard click");
+            _game.ChangeScreen(ScreenSelect.Leaderboard);
+            //Console.WriteLine("Leaderboard click");
         }
 
         private void QuitGameButtonOnClick(object sender, EventArgs e)
